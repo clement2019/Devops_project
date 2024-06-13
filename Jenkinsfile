@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                // Clean workspace before cloning (optional)
+                // Now clean workspace before cloning (optional)
                 deleteDir()
 
                 // Clone the Git repository
